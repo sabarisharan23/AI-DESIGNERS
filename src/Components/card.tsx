@@ -31,7 +31,7 @@ const Card: React.FC<CardProps> = ({ ind,title, copy, button, imageId, onClick }
               </div>
      
       <div
-         className={`content p-5a md:w-1/2 w-full  transition-transform duration-700 transform
+         className={`content p-5 md:w-1/2 w-full  transition-transform duration-700 transform
         }`}
         style={{ zIndex: isHovered ? "1" : "0" }} // Adjust z-index for text content
         >
