@@ -21,21 +21,21 @@ const cardsData: { mainTitle: string; cards: CardData[] }[] = [
     cards: [
       {
         title: "Looka",
-        copy: "LogoAI is an AI-powered logo design platform that offers businesses and individuals an easy and efficient way to create professional logos.",
+        copy: "Forget looking generic! Looka’s software is powered by AI to create a logo that matches your vision — no design skills required. Generate endless options, and tweak designs to get exactly what you want.Looka’s Brand Kit uses your logo, colors, and fonts to instantly create hundreds of branded marketing materials—all in one spot.",
         button: "Read more",
         imageId: "/new1.png",
         navigate: "/logoai",
       },
       {
         title: "Hatchful by Shopify",
-        copy: "Logomakerr.ai is a streamlined AI-based logo creation tool designed for businesses and individuals who want a fast, hassle-free approach to logo design",
+        copy: "Hatchful is a logo maker built for entrepreneurs on the go. No design experience is required to create your own logo from scratch.Customize your free logo using hundreds of templates, icons, fonts, and color combinations in our design studio. ",
         button: "Read more",
         imageId: "new2.png",
         navigate: "/logomarker",
       },
       {
         title: "Design Hill Logo Maker",
-        copy: "Brandmark.io is an innovative logo creation tool that leverages advanced AI algorithms to help users design unique and memorable logos",
+        copy: "Browse our in-built logo template library for more ideas and inspiration. Our AI tool features creative logo templates to help you out. You can check out these logo examples or customize them with desired icon, color, or element for strong brand identity.",
         button: "Read more",
         imageId: "new3.jpg",
         navigate: "/brandmarker",
@@ -168,13 +168,8 @@ export default function Categories({ setFunction }: Prop) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center p-10">
-      <div
-        className="flex text-center text-3xl p-10 font-bold "
-        id="categories"
-      >
-        Design Capabilities
-      </div>
+    <div className="flex flex-col items-center justify-center py-5">
+    
       <div className="text-center justify-center items-center p-4">
         <Dropdown
           buttonText="AI Tools Available"

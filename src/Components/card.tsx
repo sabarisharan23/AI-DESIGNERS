@@ -38,7 +38,7 @@ const Card: React.FC<CardProps> = ({ ind,title, copy, button, imageId, onClick }
         <h2 className="title text-2xl font-bold text-black  mb-2">{title}</h2>
         <p className="copy italic  font-semibold text-base mb-4">{copy}</p>
         <button
-          className="btn cursor-pointer text-xs font-bold uppercase bg-black text-white py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
+          className="btn cursor-pointer text-xs hover:py-3 hover:duration-300 hover:px-5 font-bold uppercase bg-black text-white py-2 px-4 rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
           onClick={onClick} // Add onClick handler to the button
           >
           {button}
