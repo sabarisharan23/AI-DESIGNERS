@@ -61,17 +61,17 @@ export const router = createBrowserRouter([
       },
       {
         path: "/adobe",
-        element: <BrandMarker />,
+        element: <Adobe />,
         handle: { title: "adobe" },
       },
       {
         path: "/gemini",
-        element: <BrandMarker />,
+        element: <Gemini />,
         handle: { title: "gemini" },
       },
       {
         path: "/copiolet-designer",
-        element: <BrandMarker />,
+        element: <CopioletDesigner />,
         handle: { title: "copiolet-designer" },
       },
       {
