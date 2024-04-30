@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function BrandMarker(){
     return(
-        <div className="container px-56 p-6 mx-auto tracking-wider " >
-        <div className="text-lg">
+      <div className="text-lg px-10 md:w-3/4 md:m-auto tracking-wider ">
+      <div className="text-lg">
         <h1 className="py-5 font-bold text-3xl">3. Brandmark.io</h1>
         <Link
           to={"https://www.brandmark.io"}

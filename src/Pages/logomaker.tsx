@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 export default function LogoMarker(){
     return(
-        <div className="container px-56 p-6 mx-auto tracking-wider " >
+      <div className="text-lg px-10 md:w-3/4 md:m-auto tracking-wider ">
 
-        <div className="text-lg px-40 pt-16">
+        <div className="text-lg  pt-16">
         <h1 className="py-5 font-bold text-3xl">2. Logomakerr.ai</h1>
         <Link
           to={"https://www.logomakerr.ai/?coupon=codingem"}

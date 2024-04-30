@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
+  import { Link } from "react-router-dom";
 
 export default function LogoAi() {
   return (
   
-    <div className="text-lg px-40  ">
-      {" "}
+    <div className="text-lg px-10 md:w-3/4 md:m-auto tracking-wider ">
+    {" "}
       {/* Center text within this div */}
       <h1 className="py-5 font-bold text-4xl">LogoAI.com</h1>
       <Link

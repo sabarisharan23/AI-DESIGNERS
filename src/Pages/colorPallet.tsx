@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function ColorPalette() {
   return (
-    <div className="container px-56 p-6 mx-auto tracking-wider ">
-        <div className="text-lg ">
+    <div className="text-lg px-10 md:w-3/4 md:m-auto tracking-wider ">
+    <div className="text-lg ">
       <h3 className="font-semibold text-3xl mb-4">
         3. Color Palette Generator: Adobe Color
       </h3>
