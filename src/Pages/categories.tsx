@@ -20,47 +20,47 @@ const cardsData: { mainTitle: string; cards: CardData[] }[] = [
     mainTitle: "Logo Creation",
     cards: [
       {
-        title: "Logo AI",
+        title: "Looka",
         copy: "LogoAI is an AI-powered logo design platform that offers businesses and individuals an easy and efficient way to create professional logos.",
         button: "Read more",
-        imageId: "/logoAI.png",
+        imageId: "/new1.png",
         navigate: "/logoai",
       },
       {
-        title: "Logomakerr.ai",
+        title: "Hatchful by Shopify",
         copy: "Logomakerr.ai is a streamlined AI-based logo creation tool designed for businesses and individuals who want a fast, hassle-free approach to logo design",
         button: "Read more",
-        imageId: "images.png",
+        imageId: "new2.png",
         navigate: "/logomarker",
       },
       {
-        title: "Brandmark.io",
+        title: "Design Hill Logo Maker",
         copy: "Brandmark.io is an innovative logo creation tool that leverages advanced AI algorithms to help users design unique and memorable logos",
         button: "Read more",
-        imageId: "pasted-image-0-150x150.png",
+        imageId: "new3.jpg",
         navigate: "/brandmarker",
       },
     ],
   },
   {
-    mainTitle: "Color Pallets",
+    mainTitle: "Image Generation",
     cards: [
       {
-        title: "Color Palette Generator",
+        title: "Adobe firefly",
         copy: "Description of trip 1 to Mountain View",
         button: "Read more",
         imageId: "download.jpg",
         navigate: "/colorPallet",
       },
       {
-        title: "Color Hunt",
+        title: "Gemini",
         copy: "Description of trip 2 to Mountain View",
         button: "Read more",
         imageId: "download.jpg",
         navigate: "/colorPallet",
       },
       {
-        title: "Adobe Color",
+        title: "Microsoft copilot designer",
         copy: "Description of trip 3 to Mountain View",
         button: "Read more",
         imageId: "download.jpg",
@@ -69,7 +69,7 @@ const cardsData: { mainTitle: string; cards: CardData[] }[] = [
     ],
   },
   {
-    mainTitle: "Icons and Illustration",
+    mainTitle: "Image Editing",
     cards: [
       {
         title: "Trip 1",

@@ -5,12 +5,15 @@ import Categories from "./Pages/categories";
 import Comparison from "./Pages/comparison";
 import Features from "./Pages/features";
 import ColorPallet from "./Pages/colorPallet";
-import IconsAndIllustrations from "./Pages/iconsAndillustration";
-import ImageEditor from "./Pages/imageEditor";
-import LogoAi from "./Pages/logoCreation";
+
+import LogoAi from "./Pages/looka";
 import BenchmarkCriteriaTable from "./Pages/table";
-import BrandMarker from "./Pages/brandmarker";
-import LogoMarker from "./Pages/logomaker";
+import BrandMarker from "./Pages/hillLogo";
+import LogoMarker from "./Pages/Hatchful";
+import Adobe from "./Pages/adobe";
+import Gemini from "./Pages/gemini";
+import CopioletDesigner from "./Pages/copioletDesigner";
+import { SetStateAction } from "react";
 
 
 export const router = createBrowserRouter([
@@ -26,7 +29,9 @@ export const router = createBrowserRouter([
       },
       {
         path: "/categories",
-        element: <Categories />,
+        element: <Categories setFunction={function (value: SetStateAction<string | null>): void {
+          throw new Error("Function not implemented.");
+        } } />,
         handle: { title: "Categories" },
       },
       {
@@ -52,23 +57,29 @@ export const router = createBrowserRouter([
       {
         path: "/brandmarker",
         element: <BrandMarker />,
-        handle: { title: "comparison" },
+        handle: { title: "brandmarker" },
+      },
+      {
+        path: "/adobe",
+        element: <BrandMarker />,
+        handle: { title: "adobe" },
+      },
+      {
+        path: "/gemini",
+        element: <BrandMarker />,
+        handle: { title: "gemini" },
+      },
+      {
+        path: "/copiolet-designer",
+        element: <BrandMarker />,
+        handle: { title: "copiolet-designer" },
       },
       {
         path: "/colorPallet",
         element: <ColorPallet />,
         handle: { title: "colorPallet" },
       },
-      {
-        path: "/iconsAndillustration",
-        element: <IconsAndIllustrations />,
-        handle: { title: "iconsAndillustration" },
-      },
-      {
-        path: "/imageEditor",
-        element: <ImageEditor />,
-        handle: { title: "imageEditor" },
-      },
+      
       {
         path: "/logoai",
         element: <LogoAi />,
