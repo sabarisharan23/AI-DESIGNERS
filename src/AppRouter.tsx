@@ -4,7 +4,7 @@ import RootLayout from "./RootLayout";
 import Categories from "./Pages/categories";
 import Comparison from "./Pages/comparison";
 import Features from "./Pages/features";
-import ColorPallet from "./Pages/colorPallet";
+
 
 import LogoAi from "./Pages/looka";
 import BenchmarkCriteriaTable from "./Pages/table";
@@ -14,6 +14,9 @@ import Adobe from "./Pages/adobe";
 import Gemini from "./Pages/gemini";
 import CopioletDesigner from "./Pages/copioletDesigner";
 import { SetStateAction } from "react";
+import Fotor from "./Pages/fotor";
+import PhotAI from "./Pages/photAI";
+import LightXEditor from "./Pages/lightXEditor";
 
 
 export const router = createBrowserRouter([
@@ -70,15 +73,30 @@ export const router = createBrowserRouter([
         handle: { title: "gemini" },
       },
       {
+        path: "/fotor",
+        element: <Fotor />,
+        handle: { title: "fotor" },
+      },
+      {
+        path: "/photAI",
+        element: <PhotAI />,
+        handle: { title: "photAI" },
+      },
+      {
+        path: "/lightXeditor",
+        element: <LightXEditor />,
+        handle: { title: "lightXeditor" },
+      },
+      {
         path: "/copiolet-designer",
         element: <CopioletDesigner />,
         handle: { title: "copiolet-designer" },
       },
-      {
-        path: "/colorPallet",
-        element: <ColorPallet />,
-        handle: { title: "colorPallet" },
-      },
+      // {
+      //   path: "/colorPallet",
+      //   element: <ColorPallet />,
+      //   handle: { title: "colorPallet" },
+      // },
       
       {
         path: "/logoai",

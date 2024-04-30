@@ -72,54 +72,29 @@ const cardsData: { mainTitle: string; cards: CardData[] }[] = [
     mainTitle: "Image Editing",
     cards: [
       {
-        title: "Trip 1",
-        copy: "Description of trip 1 to Mountain View",
+        title: "Fotor",
+        copy: "You don't have to manually adjust various settings and parameters in complex software to edit photos. Our AI-powered automatic photo editor streamlines the whole editing process. ",
         button: "Read more",
-        imageId: "download.jpg",
-        navigate: "/iconsAndillustration",
+        imageId: "fotor1.jpg",
+        navigate: "/fotor",
       },
       {
-        title: "Trip 2",
-        copy: "Description of trip 2 to Mountain View",
+        title: "Phot.AI",
+        copy: "Transform your photos with Photo AI's Advanced AI Background Editor. Experience the seamless removal of backgrounds with precision. You can add in a solid color backgrounds for your product shots or create stunniung landscapes with custom AI Backgrounds. ",
         button: "Read more",
-        imageId: "download.jpg",
-        navigate: "/iconsAndillustration",
+        imageId: "phot.ai3.jpg",
+        navigate: "/photAI",
       },
       {
-        title: "Trip 3",
-        copy: "Description of trip 3 to Mountain View",
+        title: "Light X Editor",
+        copy: "Embark on a journey of limitless creativity with LightX's groundbreaking AI tools. LightX’s Image to Image AI model seamlessly enhances every detail of your photos, transforming ordinary photos into extraordinary masterpieces.",
         button: "Read more",
-        imageId: "download.jpg",
-        navigate: "/iconsAndillustration",
+        imageId: "4.jpg",
+        navigate: "/lightXeditor",
       },
     ],
   },
-  {
-    mainTitle: " ",
-    cards: [
-      {
-        title: "Adobe Photoshop ",
-        copy: "Description of trip 1 to Mountain View",
-        button: "View Trips",
-        imageId: "download.jpg",
-        navigate: "/imageEditor",
-      },
-      {
-        title: "Luminar Neo",
-        copy: "Description of trip 2 to Mountain View",
-        button: "View Trips",
-        imageId: "download.jpg",
-        navigate: "/imageEditor",
-      },
-      {
-        title: "Canva",
-        copy: "Description of trip 3 to Mountain View",
-        button: "View Trips",
-        imageId: "download.jpg",
-        navigate: "/imageEditor",
-      },
-    ],
-  },
+  
   // Add more main titles with associated cards
 ];
 interface RenderProp {

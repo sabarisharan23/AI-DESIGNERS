@@ -4,9 +4,7 @@ import { RenderCards } from "./categories";
 import { Link } from "react-router-dom";
 import { GoArrowRight } from "react-icons/go";
 const Home: React.FC = () => {
-  const [selectedMainTitle, setSelectedMainTitle] = React.useState<
-    string | null
-  >(null);
+  const [selectedMainTitle, setSelectedMainTitle] = React.useState< string | null >(null);
   return (
     <div>
       <div className="relative h-screen flex justify-center items-start">

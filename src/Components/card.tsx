@@ -15,7 +15,7 @@ const Card: React.FC<CardProps> = ({ ind,title, copy, button, imageId, onClick }
   console.log(ind, "ingas")
   return (
     <div
-      className={`card relative p-4  ${ind % 2 !== 0 ? `flex flex-row-reverse bg-gray-200`: `flex flex-row `} group items-center rounded-lg flex-wrap   p-4 w-full m-auto mt-10 h-full  text-whitesmoke   transition-all duration-500`}
+      className={`card relative p-2  ${ind % 2 !== 0 ? `flex flex-row-reverse bg-gray-200`: `flex flex-row `} group items-center rounded-lg flex-wrap p-2 w-full m-auto mt-10 h-full  text-whitesmoke   transition-all duration-500`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -31,7 +31,7 @@ const Card: React.FC<CardProps> = ({ ind,title, copy, button, imageId, onClick }
               </div>
      
       <div
-         className={`content  md:w-1/2 w-full  p-10 transition-transform duration-700 transform
+         className={`content p-5a md:w-1/2 w-full  transition-transform duration-700 transform
         }`}
         style={{ zIndex: isHovered ? "1" : "0" }} // Adjust z-index for text content
         >
