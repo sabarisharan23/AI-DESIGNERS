@@ -50,21 +50,21 @@ const cardsData: { mainTitle: string; cards: CardData[] }[] = [
         copy: "Description of trip 1 to Mountain View",
         button: "Read more",
         imageId: "download.jpg",
-        navigate: "/colorPallet",
+        navigate: "/adobe",
       },
       {
         title: "Gemini",
         copy: "Description of trip 2 to Mountain View",
         button: "Read more",
         imageId: "download.jpg",
-        navigate: "/colorPallet",
+        navigate: "/gemini",
       },
       {
         title: "Microsoft copilot designer",
         copy: "Description of trip 3 to Mountain View",
         button: "Read more",
         imageId: "download.jpg",
-        navigate: "/colorPallet",
+        navigate: "/copiolet-designer",
       },
     ],
   },
@@ -95,7 +95,7 @@ const cardsData: { mainTitle: string; cards: CardData[] }[] = [
     ],
   },
   {
-    mainTitle: "Image Editing ",
+    mainTitle: " ",
     cards: [
       {
         title: "Adobe Photoshop ",
