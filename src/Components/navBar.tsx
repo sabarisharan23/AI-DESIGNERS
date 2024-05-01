@@ -2,7 +2,7 @@ import { IoMdMenu } from "react-icons/io";
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import AnchorLink from 'react-anchor-link-smooth-scroll'; // Import AnchorLink
+// import AnchorLink from 'react-anchor-link-smooth-scroll'; // Import AnchorLink
 
 
 const NavBar: React.FC = () => {
@@ -33,8 +33,8 @@ const NavBar: React.FC = () => {
                 Categories
               </AnchorLink>
               {/* Other navigation links */}
-              <Link to="/comparison">Comparison</Link>
-              <Link to="/features">Features</Link>
+              {/* <Link to="/comparison">Comparison</Link>
+              <Link to="/features">Features</Link> */}
             </div>
           </div>
         )}
@@ -44,12 +44,12 @@ const NavBar: React.FC = () => {
       <div className="hidden lg:flex gap-5 lg:items-center">
         <Link to="/">Home</Link>
           
-        <AnchorLink href="#categories"> {/* Anchor link for scrolling */}
+        {/* <AnchorLink href="#categories"> 
           Categories
-        </AnchorLink>
+        </AnchorLink> */}
         {/* Other navigation links */}
-        <Link to="/comparison">Comparison</Link>
-        <Link to="/features">Features</Link>
+        {/* <Link to="/comparison">Comparison</Link>
+        <Link to="/features">Features</Link> */}
       </div>
     </nav>
   );

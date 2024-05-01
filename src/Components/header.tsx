@@ -7,7 +7,7 @@ const Header: React.FC = () => {
       <div className="flex items-center ">
         <img src="/des.png" alt="Logo" className="w-12 h-12 mr-4" />
         <div className="text-sm font-bold md:text-xl">
-          Emerging Production Technologies A2: Pitch
+          Emerging Production Technologies A3: Project
         </div>
       </div>
       <div>

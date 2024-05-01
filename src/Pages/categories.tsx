@@ -35,7 +35,7 @@ const cardsData: { mainTitle: string; cards: CardData[] }[] = [
       },
       {
         title: "Design Hill Logo Maker",
-        copy: "Browse our in-built logo template library for more ideas and inspiration. Our AI tool features creative logo templates to help you out. You can check out these logo examples or customize them with desired icon, color, or element for strong brand identity.",
+        copy: "Browse our in-built logo template library for more ideas and inspiration. This AI tool features creative logo templates to help you out. You can check out these logo examples or customize them with desired icon, color, or element for strong brand identity.",
         button: "Read more",
         imageId: "new3.jpg",
         navigate: "/brandmarker",
@@ -47,7 +47,7 @@ const cardsData: { mainTitle: string; cards: CardData[] }[] = [
     cards: [
       {
         title: "Adobe firefly",
-        copy: "Create stunning images with the latest generative AI features, powered by the new Adobe Firefly Image 3 Model, now in the Photoshop (beta) app. Add, remove, and expand content, create lifelike images from scratch, and more",
+        copy: "Create stunning images with the latest generative AI features, powered by the new Adobe Firefly Image 3 Model (preview), now in the Photoshop (beta) app. Add, remove, and expand content, create lifelike images from scratch, and more",
         button: "Read more",
         imageId: "adobefinal.jpg",
         navigate: "/adobe",
@@ -73,14 +73,14 @@ const cardsData: { mainTitle: string; cards: CardData[] }[] = [
     cards: [
       {
         title: "Fotor",
-        copy: "You don't have to manually adjust various settings and parameters in complex software to edit photos. Our AI-powered automatic photo editor streamlines the whole editing process. ",
+        copy: "You don't have to manually adjust various settings and parameters in complex software to edit photos. This AI-powered automatic photo editor streamlines the whole editing process. ",
         button: "Read more",
         imageId: "fotor1.jpg",
         navigate: "/fotor",
       },
       {
         title: "Phot.AI",
-        copy: "Transform your photos with Photo AI's Advanced AI Background Editor. Experience the seamless removal of backgrounds with precision. You can add in a solid color backgrounds for your product shots or create stunniung landscapes with custom AI Backgrounds. ",
+        copy: "Transform your photos with Photo AI's Advanced AI Background Editor. Experience the seamless removal of backgrounds with precision. You can add solid color backgrounds for your product shots or create stunniung landscapes with custom AI Backgrounds. ",
         button: "Read more",
         imageId: "phot.ai3.jpg",
         navigate: "/photAI",
@@ -147,7 +147,7 @@ export default function Categories({ setFunction }: Prop) {
     
       <div className="text-center justify-center items-center p-4">
         <Dropdown
-          buttonText="AI Tools Available"
+          buttonText="AI Tool categories"
           items={dropdownItems}
           buttonClassName="my-custom-button-class w-full backdrop-blur-lg shadow-lg border-2 border-gray-400 shadow-slate-500  hover:bg-gray-100/50"
           dropdownClassName="my-custom-dropdown-class backdrop-blur-lg shadow-lg border-2 border-gray-400 shadow-slate-500 text-white "

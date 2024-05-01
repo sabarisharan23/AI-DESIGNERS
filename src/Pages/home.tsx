@@ -41,10 +41,9 @@ const Home: React.FC = () => {
               more about <span className="font-bold ">AI tools </span> available
             </h1>
 
-            <p className="text-base md:text-lg">
-              Explore the features with Innovations and Vision powered by AI!
+            <p className="text-base md:text-xl">
               Navigate groundbreaking possibilities
-              <br /> and redefine your journey in the world of artificial
+              and redefine your journey in the world of artificial
               intelligence{" "}
             </p>
           </div>
